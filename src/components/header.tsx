@@ -1,13 +1,15 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
+// @ts-ignore
+import logo from '../images/icon.png';
 
 const Header = ({ siteTitle }) => (
   <header
   >
     <nav className="navbar" role="navigation" aria-label="main navigation">
       <div className="navbar-brand">
-        <Link className="navbar-item" to="/">{siteTitle}</Link>
+        <Link className="navbar-item" to="/"><img src={logo} title={siteTitle} /></Link>
 
         <a role="button" className="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
           <span aria-hidden="true"></span>
