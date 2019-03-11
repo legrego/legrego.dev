@@ -1,0 +1,5 @@
+@import '../../node_modules/bulma/bulma.sass';
+
+.social-icons .icon:not(:last-child) {
+  margin-right: 10px;
+}
