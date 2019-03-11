@@ -59,7 +59,7 @@ class HomeSeerPluginTemplate extends React.Component<Props, {}> {
           <div className="control">
             <div className="tags has-addons">
               <span className="tag repo-tag-first"><i className="fab fa-github fa-lg" /> Repository</span>
-              <span className="tag is-primary repo-tag-second"><a href={`https://github.com/legrego/${post.frontmatter.repository}`} target="_blank">{post.frontmatter.repository}</a></span>
+              <span className="tag is-primary repo-tag-second"><a href={`https://github.com/legrego/${post.frontmatter.repository}`} target="_blank" rel="noreferrer">{post.frontmatter.repository}</a></span>
             </div>
           </div>
         </div>
