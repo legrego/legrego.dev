@@ -4,6 +4,7 @@ description: Send SMS messages from HomeSeer via Twilio
 date: 2019-03-03
 template: homeseer-plugin
 slug: homeseer_twilio_messaging
+repository: HSPI_TwilioMessaging
 version: 0.1.0
 ---
 

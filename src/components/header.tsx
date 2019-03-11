@@ -1,9 +1,8 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
-import Social from "./social";
 
-const Header = ({ siteTitle , social}) => (
+const Header = ({ siteTitle }) => (
   <header
   >
     <nav className="navbar" role="navigation" aria-label="main navigation">
@@ -39,12 +38,6 @@ const Header = ({ siteTitle , social}) => (
               <Link className="navbar-item" to="/homeseer_twilio_messaging">Twilio Messaging</Link>
             </div>
 
-          </div>
-        </div>
-
-        <div className="navbar-end">
-          <div className="navbar-item">
-            <Social />
           </div>
         </div>
       </div>

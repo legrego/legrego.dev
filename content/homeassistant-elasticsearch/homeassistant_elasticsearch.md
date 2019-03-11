@@ -4,6 +4,7 @@ description: Publish HASS events to Elasticsearch
 date: 2019-03-03
 template: homeassistant-component
 slug: homeassistant_elasticsearch
+repository: homeassistant-elasticsearch
 version: 0.1.0
 ---
 

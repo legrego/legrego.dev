@@ -39,7 +39,7 @@ const Layout = ({ children }) => (
           }
         </Helmet>
 
-        <Header siteTitle={data.site.siteMetadata.title} social={data.site.siteMetadata.social} />
+        <Header siteTitle={data.site.siteMetadata.title} />
         <div
           className="section"
         >

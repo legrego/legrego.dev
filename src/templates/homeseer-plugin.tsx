@@ -24,6 +24,7 @@ interface Props {
         description: string;
         date: string;
         version: string;
+        repository: string;
       }
     }
   };
@@ -55,6 +56,12 @@ class HomeSeerPluginTemplate extends React.Component<Props, {}> {
               <span className="tag is-primary">{post.frontmatter.date}</span>
             </div>
           </div>
+          <div className="control">
+            <div className="tags has-addons">
+              <span className="tag repo-tag-first"><i className="fab fa-github fa-lg" /> Repository</span>
+              <span className="tag is-primary repo-tag-second"><a href={`https://github.com/legrego/${post.frontmatter.repository}`} target="_blank">{post.frontmatter.repository}</a></span>
+            </div>
+          </div>
         </div>
         
 
@@ -81,8 +88,9 @@ export const query = graphql`
       frontmatter {
         title
         date(formatString: "MMMM DD, YYYY")
-        description,
+        description
         version
+        repository
       }
     }
   }
