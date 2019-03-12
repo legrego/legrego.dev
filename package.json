@@ -28,7 +28,12 @@
     "prop-types": "^15.7.2",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
-    "react-helmet": "^5.2.0"
+    "react-helmet": "^5.2.0",
+    "tslint": "^5.13.1",
+    "tslint-config-prettier": "^1.18.0",
+    "tslint-config-standard": "^8.0.1",
+    "tslint-react": "^3.6.0",
+    "typescript": "^3.3.3333"
   },
   "devDependencies": {
     "prettier": "^1.16.4"
@@ -38,6 +43,7 @@
   ],
   "license": "MIT",
   "scripts": {
+    "lint": "tslint --project ./ --fix",
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write src/**/*.{js,jsx}",
