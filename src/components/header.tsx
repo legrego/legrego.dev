@@ -46,6 +46,7 @@ const Header = ({ siteTitle }) => {
               </a>
               <div className="navbar-dropdown">
                 <Link className="navbar-item" to="/homeseer_twilio_messaging">Twilio Messaging</Link>
+                <Link className="navbar-item" to="/homeseerbeat">homeseerbeat</Link>
               </div>
 
             </div>
