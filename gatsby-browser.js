@@ -11,7 +11,7 @@ const apm = initApm({
   serviceName: process.env.NODE_ENV === 'production' ? 'legrego-dev-site' : 'legrego-develop-dev-site',
 
   // Set custom APM Server URL (default: http://localhost:8200)
-  serverUrl: 'https://ccee39cfca7c4ac882530a0bf6d3f604.apm.us-east-1.aws.cloud.es.io:443',
+  serverUrl: 'https://715e85ff25fb4b568bc615c242440be7.apm.us-east-1.aws.cloud.es.io:443',
 
   // Set service version (required for sourcemap feature)
   serviceVersion: '0.1.0',
