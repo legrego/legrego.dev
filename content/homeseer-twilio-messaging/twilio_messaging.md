@@ -1,11 +1,11 @@
 ---
 title: Twilio Messaging Plugin
 description: Send SMS messages from HomeSeer via Twilio
-date: 2019-03-22
+date: 2019-04-27
 template: homeseer-plugin
 slug: homeseer_twilio_messaging
 repository: HSPI_TwilioMessaging
-version: 0.2.0
+version: 0.2.1
 ---
 
 This plugin integrates the [Twilio](https://twilio.com) messaging platform with HomeSeer.
@@ -17,7 +17,9 @@ You can create HomeSeer events which send SMS messages to alert on whatever you 
 2) HomeSeer 3 installation
 
 ## Installation
-(coming soon)
+1) Locate the **Twilio Messaging** plugin in the HomeSeer plugin directory under **Phone Text & Email**
+2) Click Install
+3) Done!
 
 ## Setup
 1) Go to Plugins -> Twilio Messaging -> Configuration in HomeSeer
@@ -64,4 +66,8 @@ _2019-03-03_
 ### 0.2.0
 _2019-03-22_
 - Adds support for triggering events when messages are received
+
+### 0.2.1
+_2019-04-27_
+- Fix reported version number
 
